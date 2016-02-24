@@ -52,7 +52,7 @@ it, simply add the following line to your Podfile:
 
 ## Result 
 <br>
-<img src="https://media.giphy.com/media/xT0BKBnnoc26g3In5u/giphy.gif" alt="Mountain View" style="width:100px;height:128px;">
+<img src="https://media.giphy.com/media/xT0BKBnnoc26g3In5u/giphy.gif" alt="GhostPrompt" style="width:100px;height:128px;">
 <br>
 ## Author
 

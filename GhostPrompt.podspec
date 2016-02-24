@@ -16,9 +16,7 @@ Pod::Spec.new do |s|
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = "Want Android's SnackBar like notification in your iOS app ? Well, it's here with customization in your hand. All you have to do is init GhostPrompt and pass it the view where you need to show it(highly suggested : self.view).
-Steps :
-1. Initialize Varaible : "
+  s.description      = "Want Android's SnackBar like notification in your iOS app ? Well, it's here with customization in your hand. All you have to do is init GhostPrompt and pass it the view where you need to show it (highly suggested : self.view)"
 
   s.homepage         = "https://github.com/vipu1212/GhostPrompt"
   s.screenshots     = "https://media.giphy.com/media/xT0BKBnnoc26g3In5u/giphy.gif"
@@ -48,7 +46,6 @@ LICENSE
   s.author           = { "Divyansh Singh" => "divyansh.1212@gmail.com" }
   s.source           = { :git => "https://github.com/vipu1212/GhostPrompt.git", :tag => s.version.to_s }
    s.social_media_url = 'https://in.linkedin.com/in/divyanshsingh92'
-
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
