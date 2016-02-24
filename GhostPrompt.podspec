@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
   s.homepage         = "https://github.com/vipu1212/GhostPrompt"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
-  s.license          = 'MIT'
+  s.license          = { :type => 'MIT', :file => 'LICENSE.txt' }
   s.author           = { "Divyansh Singh" => "divyansh.1212@gmail.com" }
   s.source           = { :git => "https://github.com/vipu1212/GhostPrompt.git", :tag => s.version.to_s }
    s.social_media_url = 'https://in.linkedin.com/in/divyanshsingh92'
