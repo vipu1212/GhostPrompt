@@ -10,19 +10,19 @@ import UIKit
 
 public class GhostPrompt {
     
-    lazy var promptHeight = 55
-    lazy var bgColor = UIColor.blackColor()
-    lazy var textColor = UIColor.whiteColor()
-    let view : UIView
-    lazy var appearingDirection = UIView.Direction.Bottom
-    lazy var animationTime = 0.4
+    public lazy var promptHeight = 55
+    public lazy var bgColor = UIColor.blackColor()
+    public lazy var textColor = UIColor.whiteColor()
+    public let view : UIView
+    public lazy var appearingDirection = UIView.Direction.Bottom
+    public lazy var animationTime = 0.4
     
     public init(height : Int, ParentView view : UIView) {
         self.view = view
         self.promptHeight = height
     }
     
-    func showMessage(Message message : String) {
+    public func showMessage(Message message : String) {
         
         let frame = CGRectMake(0, view.frame.height - CGFloat(self.promptHeight), view.frame.width, CGFloat(self.promptHeight))
         let messageView = UIView(frame: frame)
