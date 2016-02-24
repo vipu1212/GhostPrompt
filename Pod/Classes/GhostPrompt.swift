@@ -16,7 +16,8 @@ public class GhostPrompt {
     let view : UIView
     lazy var appearingDirection = UIView.Direction.Bottom
     lazy var animationTime = 0.4
-    init(height : Int, ParentView view : UIView) {
+    
+    public init(height : Int, ParentView view : UIView) {
         self.view = view
         self.promptHeight = height
     }
