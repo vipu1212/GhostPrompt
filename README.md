@@ -24,12 +24,12 @@ prompt.showMessage(Message: "Boooo")
 
 Customizable Properties 
 
-promptHeight // Change the height of the prompt bar <br>
-bgColor // Change the prompts the background Color <br>
-textColor // Change the text color of the prompt <br>
-view // View where to present the prompt <br>
+promptHeight        // Change the height of the prompt bar <br>
+bgColor             // Change the prompts the background Color <br>
+textColor           // Change the text color of the prompt <br>
+view                // View where to present the prompt <br>
 appearingDirection  // Direction from where to show appearing <br>
-animationTime // Duration of the visibility of the prompt <br>
+animationTime       // Duration of the visibility of the prompt <br>
 
 ## Key Points
 
@@ -52,7 +52,7 @@ it, simply add the following line to your Podfile:
 
 ## Result 
 <br>
-<img src="https://media.giphy.com/media/xT0BKBnnoc26g3In5u/giphy.gif" alt="Mountain View" style="width:160px;height:228px;">
+<img src="https://media.giphy.com/media/xT0BKBnnoc26g3In5u/giphy.gif" alt="Mountain View" style="width:100px;height:128px;">
 <br>
 ## Author
 
