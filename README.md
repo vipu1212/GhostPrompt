@@ -24,12 +24,12 @@ prompt.showMessage(Message: "Boooo")
 
 Customizable Properties 
 
-promptHeight // Change the height of the prompt bar
-bgColor // Change the prompts the background Color
-textColor // Change the text color of the prompt
-view // View where to present the prompt
-appearingDirection  // Direction from where to show appearing
-animationTime // Duration of the visibility of the prompt
+promptHeight // Change the height of the prompt bar <br>
+bgColor // Change the prompts the background Color <br>
+textColor // Change the text color of the prompt <br>
+view // View where to present the prompt <br>
+appearingDirection  // Direction from where to show appearing <br>
+animationTime // Duration of the visibility of the prompt <br>
 
 ## Key Points
 
@@ -50,7 +50,10 @@ pod try GhostPrompt
 GhostPrompt is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-
+## Result 
+<br>
+<img src="https://media.giphy.com/media/xT0BKBnnoc26g3In5u/giphy.gif" alt="Mountain View" style="width:160px;height:228px;">
+<br>
 ## Author
 
 Divyansh Singh, divyansh.1212@gmail.com
