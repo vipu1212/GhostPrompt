@@ -17,7 +17,7 @@ pod try GhostPrompt
         let prompt = GhostPrompt(height: 55, ParentView: self.view)
         prompt.showMessage(Message: "Boooo")
 
-Customizable Properties <br>
+<b>Customizable Properties </b> <br>
      promptHeight <br>
      bgColor  <br>
      textColor <br>
