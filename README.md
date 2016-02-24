@@ -18,13 +18,13 @@ pod try GhostPrompt
         prompt.showMessage(Message: "Boooo")
 
 Customizable Properties
-     promptHeight 
-     bgColor 
-     textColor = UIColor.whiteColor()
-     view : UIView
-     appearingDirection = UIView.Direction.Bottom
-      animationTime = 0.4
+     promptHeight <br>
+     bgColor  <br>
+     textColor <br>
+     view  <br>
+     appearingDirection <br> 
+      animationTime <br>
 
 <b> Key Points </b>
- 1. Currently alert is shown just at the bottom of the view.
+ 1. Currently alert is shown just at the bottom of the view. <br>
  2. Highly suggested to pass 'self.view' view to prompt
