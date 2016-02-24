@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "GhostPrompt"
-  s.version          = "0.0.2"
+  s.version          = "0.0.3"
   s.summary          = "Notification alert much like Android's SnackBar."
 
 # This description is used to generate tags and improve search results.
@@ -16,10 +16,12 @@ Pod::Spec.new do |s|
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = "Want Android's SnackBar like notification in your iOS app ? Well, it's here with customization in your hand. All you have to do is init GhostPrompt and pass it the view where you need to show it(highly suggested : self.view). Set parameters you want like appearingDirection, animationDuration, backgroundColor... Explore it ! If you want more, please suggest !"
+  s.description      = "Want Android's SnackBar like notification in your iOS app ? Well, it's here with customization in your hand. All you have to do is init GhostPrompt and pass it the view where you need to show it(highly suggested : self.view).
+Steps :
+1. Initialize Varaible : "
 
   s.homepage         = "https://github.com/vipu1212/GhostPrompt"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.screenshots     = "https://media.giphy.com/media/xT0BKBnnoc26g3In5u/giphy.gif"
 s.license          = { :type => 'MIT', :text => <<-LICENSE
 Copyright (c) 2016 Divyansh Singh <divyansh.1212@gmail.com>
 

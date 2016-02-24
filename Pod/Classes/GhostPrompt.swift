@@ -11,7 +11,7 @@ import UIKit
 public class GhostPrompt {
     
     public lazy var promptHeight = 55
-    public lazy var bgColor = UIColor.blackColor()
+    public lazy var bgColor = UIColor(red: 0.423, green: 0.356, blue: 0.925, alpha: 1)
     public lazy var textColor = UIColor.whiteColor()
     public let view : UIView
     public lazy var appearingDirection = UIView.Direction.Bottom
