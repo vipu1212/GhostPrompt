@@ -1,0 +1,6 @@
+framework module GhostPrompt {
+  umbrella header "GhostPrompt-umbrella.h"
+
+  export *
+  module * { export * }
+}

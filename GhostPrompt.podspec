@@ -9,22 +9,21 @@
 Pod::Spec.new do |s|
   s.name             = "GhostPrompt"
   s.version          = "0.1.0"
-  s.summary          = "A short description of GhostPrompt."
+  s.summary          = "Notification alert much like Android's SnackBar."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = <<-DESC
-                       DESC
+  s.description      = "Want Android's SnackBar like notification in your iOS app ? Well, it's here with customization in your hand. All you have to do is init GhostPrompt and pass it the view where you need to show it(highly suggested : self.view). Set parameters you want like appearingDirection, animationDuration, backgroundColor... Explore it ! If you want more, please suggest !"
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/GhostPrompt"
+  s.homepage         = "https://github.com/vipu1212/GhostPrompt"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Divyansh Singh" => "divyansh.1212@gmail.com" }
   s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/GhostPrompt.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+   s.social_media_url = 'https://in.linkedin.com/in/divyanshsingh92'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
@@ -35,6 +34,6 @@ Pod::Spec.new do |s|
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
