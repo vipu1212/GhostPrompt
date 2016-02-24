@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "GhostPrompt"
-  s.version          = "0.1.0"
+  s.version          = "0.0.1"
   s.summary          = "Notification alert much like Android's SnackBar."
 
 # This description is used to generate tags and improve search results.
