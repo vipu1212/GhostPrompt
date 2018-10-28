@@ -1,6 +1,5 @@
 # GhostPrompt
 
-[![CI Status](http://img.shields.io/travis/Divyansh Singh/GhostPrompt.svg?style=flat)](https://travis-ci.org/Divyansh Singh/GhostPrompt)
 [![Version](https://img.shields.io/cocoapods/v/GhostPrompt.svg?style=flat)](http://cocoapods.org/pods/GhostPrompt)
 [![License](https://img.shields.io/cocoapods/l/GhostPrompt.svg?style=flat)](http://cocoapods.org/pods/GhostPrompt)
 [![Platform](https://img.shields.io/cocoapods/p/GhostPrompt.svg?style=flat)](http://cocoapods.org/pods/GhostPrompt)
@@ -22,18 +21,35 @@ let prompt = GhostPrompt(height: 55, ParentView: self.view)
 prompt.showMessage(Message: "Boooo")
 ```
 
-Customizable Properties 
+### Customizable Properties
 
-promptHeight        // Change the height of the prompt bar <br>
-bgColor             // Change the prompts the background Color <br>
-textColor           // Change the text color of the prompt <br>
-view                // View where to present the prompt <br>
-appearingDirection  // Direction from where to show appearing <br>
-animationTime       // Duration of the visibility of the prompt <br>
+* ##### Change the height of the prompt bar
+
+    `promptHeight`
+
+* ##### Change the prompts the background Color
+
+    `bgColor`
+
+* ##### Change the text color of the prompt
+
+    `textColor`
+
+* ##### View where to present the prompt
+
+    `view`
+
+* ##### Direction from where to show appearing
+
+    `appearingDirection`
+
+* ##### Duration of the visibility of the prompt
+
+    `animationTime`
 
 ## Key Points
 
-Currently alert is shown just at the bottom of the view. 
+Currently alert is shown just at the bottom of the view.
 Highly suggested to pass 'self.view' view to prompt
 
 ## Installation
@@ -50,10 +66,10 @@ pod try GhostPrompt
 GhostPrompt is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-## Result 
-<br>
+## Result
+
 <img src="https://media.giphy.com/media/xT0BKBnnoc26g3In5u/giphy.gif" alt="GhostPrompt" style="width:60px;height:100px;">
-<br>
+
 ## Author
 
 Divyansh Singh, divyansh.1212@gmail.com
